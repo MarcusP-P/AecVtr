@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Client\AecVtr.Client.csproj" />
-    <ProjectReference Include="..\Shared\AecVtr.Shared.csproj" />
+    <ProjectReference Include="..\Common\AecVtr.Common.csproj" />
   </ItemGroup>
 
 

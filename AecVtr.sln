@@ -3,11 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32505.426
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AecVtr.Server", "AecVtr\Server\AecVtr.Server.csproj", "{639FB40C-38D6-4457-9314-51663283AC30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AecVtr.Server", "Server\AecVtr.Server.csproj", "{639FB40C-38D6-4457-9314-51663283AC30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AecVtr.Client", "AecVtr\Client\AecVtr.Client.csproj", "{3EFDF557-69DB-4DFB-8F90-BB8A72D17FDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AecVtr.Client", "Client\AecVtr.Client.csproj", "{3EFDF557-69DB-4DFB-8F90-BB8A72D17FDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AecVtr.Shared", "AecVtr\Shared\AecVtr.Shared.csproj", "{DD019D7A-E07F-4F8A-A87C-424D3A6582FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AecVtr.Common", "Common\AecVtr.Common.csproj", "{DD019D7A-E07F-4F8A-A87C-424D3A6582FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4FBE1A0D-ECDA-4741-AEED-42DA16CC4F0E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		clean.bat = clean.bat
+		global.json = global.json
+		nuget.config = nuget.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
